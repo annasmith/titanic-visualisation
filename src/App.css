@@ -1,0 +1,37 @@
+#app {
+  margin: 20px; }
+
+.legend {
+  font-size: 12px; }
+
+rect {
+  stroke-width: 2; }
+
+#chart {
+  height: 520px;
+  position: relative;
+  width: 520px;
+  padding-left: 30px;
+  padding-top: 30px;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 10px; }
+
+.tooltip {
+  background: #eee;
+  box-shadow: 0 0 5px #999999;
+  color: #333;
+  display: none;
+  font-size: 12px;
+  left: 130px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  top: 95px;
+  width: 80px;
+  z-index: 10; }
+
+.checkboxes {
+  margin-bottom: 20px; }
+
+form label.name {
+  padding-bottom: 5px; }
